@@ -14,9 +14,6 @@ namespace MainAplikasi.Presentations.MainWindow
         public MainWindowViewModel(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
-            LoadingSprite = new(FrameRate.FPS60);
         }
-
-        public LoadingSprite LoadingSprite { get; set; }
     }
 }
