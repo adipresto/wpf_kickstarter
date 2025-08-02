@@ -7,4 +7,10 @@ This repository as an kickstarter to launch or develop WPF desktop app, with MVV
 3. rename the folder and the `.sln` to project you desire
 4. open `.sln` and go to `Git Changes`
 5. `Manage Remote` then change the url to your own repository
-6. you all set
+6. you all set, everything inside `MainAplikasi` project
+
+## Feature
+1. Extension.Hosting to utilize Depedency Injection in order to achieve separation of concern
+2. CommandRelay for command pattern
+3. IObservable-able
+4. It's Model-View-ViewModel
